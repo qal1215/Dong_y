@@ -20,7 +20,7 @@ h1 {
     max-width: 600px;
 }
 nav {
-    background: #333;
+    background: rgb(53, 46, 46);
 }
 nav ul {
     padding: 0;
@@ -93,6 +93,8 @@ hr {
 
 }
 
+
+
 .timework {
     position: relative;
     width: 100%;
@@ -101,6 +103,11 @@ hr {
     background: #b63737;
     border-radius: 6px 0 0 6px;
     text-align: center;
+}
+.timework h2{
+    /* color: #b63737; */
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .contact_info {
@@ -113,3 +120,11 @@ hr {
     text-align: center;
 
 }
+
+.material-icons {
+    font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;  /* Preferred icon size */
+  }
+
